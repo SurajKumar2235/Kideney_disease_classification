@@ -2,7 +2,8 @@ from cnnClassifier import logger
 from cnnClassifier.pipeline.stage01_data_ingestion import DataIngestionTrainingPipeline
 from cnnClassifier.pipeline.stage02_base_model import PrepareBaseModelTrainingPipeline
 from cnnClassifier.pipeline.stage03_modelTraining import ModelTrainingPipeline
-
+import warnings
+warnings.simplefilter('ignore')
 logger.info("Welcome to App Logs")
 
 STAGE_NAME="DATA ingestion stage"
