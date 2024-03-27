@@ -8,6 +8,7 @@ from cnnClassifier.entity.config_entity import EvaluationConfig
 from cnnClassifier.utils.common import save_json
 
 
+
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
         self.config = config
@@ -50,6 +51,8 @@ class Evaluation:
         self.save_score()
 
     def save_score(self):
+        print("score >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",self.score,">>>>>>>>>>>>>>>>>>",type(self.score),">>>>>>>>>>>>>>>>>>",len(self.score))
+
         # scores = {"loss": self.score[0], "accuracy": self.score[1]}
         scores={'loss':self.score}
         
@@ -62,9 +65,10 @@ class Evaluation:
         
         with mlflow.start_run():
             mlflow.log_params(self.config.all_params)
+            print("score >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",self.score,">>>>>>>>>>>>>>>>>>",type(self.score),">>>>>>>>>>>>>>>>>>")
             mlflow.log_metrics(
-                # {"loss": self.score[0], "accuracy": self.score[1]}
-                {'loss':self.score}
+                {"loss": self.score[0], "accuracy": self.score[1]}
+                # {'loss':self.score}
             )
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
@@ -76,3 +80,4 @@ class Evaluation:
                 mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
             else:
                 mlflow.keras.log_model(self.model, "model")
+

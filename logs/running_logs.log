@@ -224,3 +224,146 @@ x==========x]
 [2024-03-27 17:37:32,415:INFO:common: created directory at: artifacts]
 [2024-03-27 17:38:05,527:INFO:common: json file saved at: scores.json]
 [2024-03-27 17:48:37,381:WARNING:connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'TimeoutError('The write operation timed out')': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow-artifacts/artifacts/4da2f174c21747948310eced9b1dffa5/f7e4267cd7864228ab1d07542245d1bb/artifacts/model/data/model.keras]
+[2024-03-27 21:33:59,052:INFO:main: Welcome to App Logs]
+[2024-03-27 21:33:59,052:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-27 21:33:59,055:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 21:33:59,057:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 21:33:59,058:INFO:common: created directory at: artifacts]
+[2024-03-27 21:33:59,058:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-27 21:33:59,058:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-27 21:33:59,061:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 21:33:59,063:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 21:33:59,064:INFO:common: created directory at: artifacts]
+[2024-03-27 21:33:59,064:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-27 21:34:01,115:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-27 21:34:01,115:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-27 21:34:01,118:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 21:34:01,120:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 21:34:01,121:INFO:common: created directory at: artifacts]
+[2024-03-27 21:34:01,121:INFO:common: created directory at: artifacts/training]
+[2024-03-27 21:42:27,740:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-27 21:42:27,742:INFO:main: >>>>>>>>stageEvaluating Model Using Mlflow started<<<<<<<<<<<]
+[2024-03-27 21:42:27,748:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 21:42:27,753:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 21:42:27,754:INFO:common: created directory at: artifacts]
+[2024-03-27 21:42:57,397:INFO:common: json file saved at: scores.json]
+[2024-03-27 21:42:57,398:INFO:common: json file saved at: scores.json]
+[2024-03-27 21:42:58,795:ERROR:main: Could not find experiment with ID 0]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 56, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage04_model_evluaton.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/model_evaluation.py", line 63, in log_into_mlflow
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/fluent.py", line 381, in start_run
+    active_run_obj = client.create_run(
+                     ^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/client.py", line 353, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/_tracking_service/client.py", line 139, in create_run
+    return self.store.create_run(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 607, in create_run
+    experiment = self.get_experiment(experiment_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 421, in get_experiment
+    experiment = self._get_experiment(experiment_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 391, in _get_experiment
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Could not find experiment with ID 0
+[2024-03-27 22:02:20,584:INFO:main: Welcome to App Logs]
+[2024-03-27 22:02:20,584:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-27 22:02:20,588:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 22:02:20,591:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 22:02:20,591:INFO:common: created directory at: artifacts]
+[2024-03-27 22:02:20,591:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-27 22:02:20,592:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-27 22:02:20,594:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 22:02:20,596:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 22:02:20,597:INFO:common: created directory at: artifacts]
+[2024-03-27 22:02:20,597:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-27 22:02:22,635:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-27 22:02:22,635:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-27 22:02:22,637:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 22:02:22,639:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 22:02:22,640:INFO:common: created directory at: artifacts]
+[2024-03-27 22:02:22,641:INFO:common: created directory at: artifacts/training]
+[2024-03-27 22:11:12,718:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-27 22:11:12,733:INFO:main: >>>>>>>>stageEvaluating Model Using Mlflow started<<<<<<<<<<<]
+[2024-03-27 22:11:12,740:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 22:11:12,745:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 22:11:12,747:INFO:common: created directory at: artifacts]
+[2024-03-27 22:11:42,758:INFO:common: json file saved at: scores.json]
+[2024-03-27 22:11:42,759:INFO:common: json file saved at: scores.json]
+[2024-03-27 22:14:00,510:WARNING:connectionpool: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)'))': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow/runs/create]
+[2024-03-27 22:14:33,636:WARNING:connectionpool: Retrying (Retry(total=3, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f1911f4a870>: Failed to resolve 'dagshub.com' ([Errno -2] Name or service not known)")': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow/runs/create]
+[2024-03-27 22:18:40,473:ERROR:main: must be real number, not list]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 56, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage04_model_evluaton.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/model_evaluation.py", line 65, in log_into_mlflow
+    mlflow.log_metrics(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/fluent.py", line 866, in log_metrics
+    return MlflowClient().log_batch(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/client.py", line 1129, in log_batch
+    return self._tracking_client.log_batch(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/_tracking_service/client.py", line 486, in log_batch
+    self.store.log_batch(run_id=run_id, metrics=metrics_batch, params=[], tags=[])
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/rest_store.py", line 334, in log_batch
+    metric_protos = [metric.to_proto() for metric in metrics]
+                     ^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/entities/metric.py", line 40, in to_proto
+    metric.value = self.value
+    ^^^^^^^^^^^^
+TypeError: must be real number, not list
+[2024-03-27 23:09:18,792:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 23:09:18,796:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 23:09:18,797:INFO:common: created directory at: artifacts]
+[2024-03-27 23:09:18,798:INFO:common: created directory at: artifacts/training]
+[2024-03-27 23:21:59,425:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 23:21:59,430:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 23:21:59,432:INFO:common: created directory at: artifacts]
+[2024-03-27 23:22:12,938:INFO:common: json file saved at: scores.json]
+[2024-03-27 23:26:13,921:WARNING:connectionpool: Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fcd20094710>, 'Connection to dagshub.com timed out. (connect timeout=120)')': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow/runs/create]
+[2024-03-27 23:30:19,755:WARNING:connectionpool: Retrying (Retry(total=3, connect=4, read=4, redirect=5, status=5)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='dagshub.com', port=443): Read timed out. (read timeout=120)")': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow/runs/create]
+[2024-03-27 23:41:48,444:INFO:main: Welcome to App Logs]
+[2024-03-27 23:41:48,444:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-27 23:41:48,445:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 23:41:48,446:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 23:41:48,447:INFO:common: created directory at: artifacts]
+[2024-03-27 23:41:48,447:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-27 23:41:48,447:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-27 23:41:48,448:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 23:41:48,449:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 23:41:48,449:INFO:common: created directory at: artifacts]
+[2024-03-27 23:41:48,449:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-27 23:41:49,421:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-27 23:41:49,422:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-27 23:41:49,423:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 23:41:49,424:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 23:41:49,424:INFO:common: created directory at: artifacts]
+[2024-03-27 23:41:49,425:INFO:common: created directory at: artifacts/training]

@@ -69,7 +69,7 @@ class Training:
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
         optimizer = tf.keras.optimizers.Adam()  # Assuming Adam optimizer is used
     
-        self.model.compile(optimizer=optimizer, loss='MAPE')  # Adjust loss and metrics as per your requirements
+        # self.model.compile(optimizer=optimizer, loss='MAPE', metrics=['MAPE','mse'],)  # Adjust loss and metrics as per your requirements
 
         self.model.fit(
             self.train_generator,

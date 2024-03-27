@@ -2,3 +2,7 @@
 [2024-03-26 10:14:59,941:INFO:common: yaml file: params.yaml loaded successfully]
 [2024-03-26 10:14:59,946:INFO:common: created directory at: artifacts]
 [2024-03-26 10:14:59,948:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-27 23:06:52,483:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-27 23:06:52,486:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-27 23:06:52,487:INFO:common: created directory at: artifacts]
+[2024-03-27 23:06:52,488:INFO:common: created directory at: artifacts/training]
