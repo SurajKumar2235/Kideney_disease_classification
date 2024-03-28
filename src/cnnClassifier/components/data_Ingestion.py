@@ -18,9 +18,9 @@ class DataIngestion:
         '''
 
         try: 
-            dataset_url = self.config.source_URL
+            dataset_url = self.config.dataset_name
             zip_download_dir = self.config.local_data_file
-            os.makedirs("artifacts/data_ingestion", exist_ok=True)
+            os.makedirs(self.config.root_dir, exist_ok=True)
             logger.info(f"Downloading data from {dataset_url} into file {zip_download_dir}")
             print(">>>>>>>>>>>>>>>>>------------------------<<<<<<<<<<<<<<<<<<<<<<<<<<")
             # file_id = dataset_url.split("/")[-2]
@@ -33,7 +33,19 @@ class DataIngestion:
             dataset_name = 'nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone'
 
             # Download the dataset
-            api.dataset_download_files(dataset_name, path='artifacts/data_ingestion', unzip=True)
+            api.dataset_download_files(dataset_name)
+
+
+
+            api.dataset_download_files(dataset_name, path=self.config.root_dir)  # Specify the download path
+
+            # Rename the downloaded file to data.zip
+            # downloaded_files = os.listdir(zip_download_dir)
+            # for file in downloaded_files:
+            #     if file.endswith('.zip'):
+            #         os.rename(os.path.join(zip_download_dir, file), os.path.join(zip_download_dir, 'data.zip'))
+            #         break  # Exit the loop after renaming the first zip file
+
 
             logger.info(f"Downloaded data from {dataset_url} into file {zip_download_dir}")
 

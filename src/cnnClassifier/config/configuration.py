@@ -21,7 +21,7 @@ class ConfigurationManager:
         config=self.config.data_ingestion
 
         data_ingestion_config=DataIngestionConfig(root_dir=config.root_dir,
-                                                  source_URL=config.source_URL,
+                                                  dataset_name=config.dataset_name,
                                                   local_data_file=config.local_data_file,
                                                   unzip_dir=config.unzip_dir)
         return data_ingestion_config
@@ -50,7 +50,7 @@ class ConfigurationManager:
         training = self.config.training
         prepare_base_model = self.config.prepared_base_model
         params = self.params
-        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "kidney-ct-scan-image")
+        training_data = os.path.join(self.config.data_ingestion.unzip_dir, "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone")
         create_directories([
             Path(training.root_dir)
         ])

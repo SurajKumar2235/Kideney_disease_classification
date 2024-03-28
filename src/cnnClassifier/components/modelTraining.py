@@ -22,7 +22,7 @@ class Training:
         dataflow_kwargs = dict(
             target_size=self.config.params_image_size[:-1],
             batch_size=self.config.params_batch_size,
-            interpolation="bilinear"
+            # interpolation="bilinear"
         )
 
         valid_datagenerator = tf.keras.preprocessing.image.ImageDataGenerator(
@@ -70,7 +70,8 @@ class Training:
         optimizer = tf.keras.optimizers.Adam()  # Assuming Adam optimizer is used
     
         # self.model.compile(optimizer=optimizer, loss='MAPE', metrics=['MAPE','mse'],)  # Adjust loss and metrics as per your requirements
-
+        self.model.compile(optimizer=optimizer, loss='categorical_crossentropy', metrics=['accuracy'])  
+    
         self.model.fit(
             self.train_generator,
             epochs=self.config.params_epochs,

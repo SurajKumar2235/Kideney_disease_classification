@@ -470,3 +470,235 @@ x==========x]
 [2024-03-28 18:29:53,410:INFO:common: yaml file: params.yaml loaded successfully]
 [2024-03-28 18:29:53,410:INFO:common: created directory at: artifacts]
 [2024-03-28 18:29:53,411:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-28 21:32:07,517:INFO:main: Welcome to App Logs]
+[2024-03-28 21:32:07,517:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-28 21:32:07,520:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:32:07,522:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:32:07,523:INFO:common: created directory at: artifacts]
+[2024-03-28 21:32:07,523:ERROR:main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip']
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 17, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/data_Ingestion.py", line 65, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/zipfile/__init__.py", line 1323, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/data.zip'
+[2024-03-28 21:33:57,578:INFO:main: Welcome to App Logs]
+[2024-03-28 21:33:57,579:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-28 21:33:57,581:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:33:57,584:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:33:57,584:INFO:common: created directory at: artifacts]
+[2024-03-28 21:34:39,251:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-28 21:34:39,252:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-28 21:34:39,254:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:34:39,256:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:34:39,257:INFO:common: created directory at: artifacts]
+[2024-03-28 21:34:39,257:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 21:34:41,359:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-28 21:34:41,360:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-28 21:34:41,362:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:34:41,364:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:34:41,364:INFO:common: created directory at: artifacts]
+[2024-03-28 21:34:41,364:INFO:common: created directory at: artifacts/training]
+[2024-03-28 21:34:42,220:ERROR:main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 43, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 19, in main
+    training.train_valid_generator()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 32, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/preprocessing/image.py", line 1138, in flow_from_directory
+    return DirectoryIterator(
+           ^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/preprocessing/image.py", line 453, in __init__
+    for subdir in sorted(os.listdir(directory)):
+                         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image'
+[2024-03-28 21:36:14,923:INFO:main: Welcome to App Logs]
+[2024-03-28 21:36:14,924:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-28 21:36:14,927:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:36:14,929:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:36:14,930:INFO:common: created directory at: artifacts]
+[2024-03-28 21:36:58,531:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-28 21:36:58,531:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-28 21:36:58,537:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:36:58,541:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:36:58,542:INFO:common: created directory at: artifacts]
+[2024-03-28 21:36:58,543:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 21:37:00,742:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-28 21:37:00,742:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-28 21:37:00,745:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:37:00,747:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:37:00,749:INFO:common: created directory at: artifacts]
+[2024-03-28 21:37:00,749:INFO:common: created directory at: artifacts/training]
+[2024-03-28 21:37:01,672:ERROR:main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image']
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 43, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 19, in main
+    training.train_valid_generator()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 32, in train_valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/preprocessing/image.py", line 1138, in flow_from_directory
+    return DirectoryIterator(
+           ^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/preprocessing/image.py", line 453, in __init__
+    for subdir in sorted(os.listdir(directory)):
+                         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/kidney-ct-scan-image'
+[2024-03-28 21:39:48,270:INFO:main: Welcome to App Logs]
+[2024-03-28 21:39:48,271:INFO:main: >>>>>>>>stage DATA ingestion stage started<<<<<<<<<<<]
+[2024-03-28 21:39:48,276:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:39:48,278:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:39:48,279:INFO:common: created directory at: artifacts]
+[2024-03-28 21:40:30,667:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-28 21:40:30,668:INFO:main: >>>>>>>>stage prepare base model started<<<<<<<<<<<]
+[2024-03-28 21:40:30,670:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:40:30,673:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:40:30,673:INFO:common: created directory at: artifacts]
+[2024-03-28 21:40:30,674:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 21:40:32,898:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-28 21:40:32,898:INFO:main: >>>>>>>>stage prepare base model started<<<<<<<<<<<]
+[2024-03-28 21:40:32,901:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:40:32,903:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:40:32,903:INFO:common: created directory at: artifacts]
+[2024-03-28 21:40:32,904:INFO:common: created directory at: artifacts/training]
+[2024-03-28 21:40:34,981:ERROR:main: Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 1), output.shape=(None, 2)]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 43, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 74, in train
+    self.model.fit(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/backend/tensorflow/nn.py", line 553, in categorical_crossentropy
+    raise ValueError(
+ValueError: Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 1), output.shape=(None, 2)
+[2024-03-28 21:44:06,786:INFO:main: Welcome to App Logs]
+[2024-03-28 21:44:06,786:INFO:main: >>>>>>>>stage DATA ingestion stage started<<<<<<<<<<<]
+[2024-03-28 21:44:06,789:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:44:06,791:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:44:06,792:INFO:common: created directory at: artifacts]
+[2024-03-28 21:44:45,806:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-28 21:44:45,806:INFO:main: >>>>>>>>stage prepare base model started<<<<<<<<<<<]
+[2024-03-28 21:44:45,809:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:44:45,811:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:44:45,811:INFO:common: created directory at: artifacts]
+[2024-03-28 21:44:45,812:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 21:44:47,835:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-28 21:44:47,835:INFO:main: >>>>>>>>stage prepare base model started<<<<<<<<<<<]
+[2024-03-28 21:44:47,838:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 21:44:47,840:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 21:44:47,841:INFO:common: created directory at: artifacts]
+[2024-03-28 21:44:47,841:INFO:common: created directory at: artifacts/training]
+[2024-03-28 21:44:49,818:ERROR:main: Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 1), output.shape=(None, 2)]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 43, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 75, in train
+    self.model.fit(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/backend/tensorflow/nn.py", line 553, in categorical_crossentropy
+    raise ValueError(
+ValueError: Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 1), output.shape=(None, 2)
+[2024-03-28 22:38:45,403:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:38:45,408:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:38:45,411:INFO:common: created directory at: artifacts]
+[2024-03-28 22:38:45,413:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 22:39:19,347:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:39:19,351:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:39:19,354:INFO:common: created directory at: artifacts]
+[2024-03-28 22:39:19,356:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 22:40:31,876:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:40:31,880:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:40:31,882:INFO:common: created directory at: artifacts]
+[2024-03-28 22:40:31,884:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 22:43:15,704:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:43:15,726:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:43:15,733:INFO:common: created directory at: artifacts]
+[2024-03-28 22:43:15,739:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 22:45:20,863:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:45:20,867:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:45:20,869:INFO:common: created directory at: artifacts]
+[2024-03-28 22:45:20,871:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 22:47:50,918:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:47:50,923:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:47:50,925:INFO:common: created directory at: artifacts]
+[2024-03-28 22:47:50,928:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 22:48:32,349:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:48:32,354:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:48:32,356:INFO:common: created directory at: artifacts]
+[2024-03-28 22:48:32,358:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 22:57:35,937:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:57:35,944:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:57:35,946:INFO:common: created directory at: artifacts]
+[2024-03-28 22:57:35,949:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 22:58:18,436:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 22:58:18,440:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 22:58:18,442:INFO:common: created directory at: artifacts]
+[2024-03-28 22:58:18,444:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:00:42,041:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:00:42,046:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:00:42,048:INFO:common: created directory at: artifacts]
+[2024-03-28 23:00:42,051:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:04:55,055:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:04:55,063:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:04:55,067:INFO:common: created directory at: artifacts]
+[2024-03-28 23:04:55,069:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:23:10,824:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:23:10,831:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:23:10,834:INFO:common: created directory at: artifacts]
+[2024-03-28 23:23:10,837:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:24:25,684:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:24:25,690:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:24:25,692:INFO:common: created directory at: artifacts]
+[2024-03-28 23:24:25,694:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:25:11,635:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:25:11,641:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:25:11,643:INFO:common: created directory at: artifacts]
+[2024-03-28 23:25:11,645:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:25:37,722:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:25:37,727:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:25:37,730:INFO:common: created directory at: artifacts]
+[2024-03-28 23:25:37,731:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:32:02,968:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:32:02,975:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:32:02,977:INFO:common: created directory at: artifacts]
+[2024-03-28 23:32:02,979:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:33:43,063:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:33:43,067:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:33:43,069:INFO:common: created directory at: artifacts]
+[2024-03-28 23:33:43,070:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-28 23:50:02,639:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-28 23:50:02,645:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-28 23:50:02,648:INFO:common: created directory at: artifacts]
+[2024-03-28 23:50:02,651:INFO:common: created directory at: artifacts/prepare_base_model]
