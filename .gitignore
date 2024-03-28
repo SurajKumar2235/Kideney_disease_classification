@@ -1,4 +1,7 @@
 artifacts/*
 mlruns/*
 logs/*
-
+.env
+kaggle.json
+kaggle.json
+*.log

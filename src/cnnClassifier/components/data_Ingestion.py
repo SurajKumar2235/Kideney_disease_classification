@@ -5,7 +5,7 @@ from cnnClassifier import logger
 from cnnClassifier.entity.config_entity import DataIngestionConfig
 from cnnClassifier.utils.common import get_size
 
-
+from kaggle.api.kaggle_api_extended import KaggleApi
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
@@ -22,10 +22,18 @@ class DataIngestion:
             zip_download_dir = self.config.local_data_file
             os.makedirs("artifacts/data_ingestion", exist_ok=True)
             logger.info(f"Downloading data from {dataset_url} into file {zip_download_dir}")
+            print(">>>>>>>>>>>>>>>>>------------------------<<<<<<<<<<<<<<<<<<<<<<<<<<")
+            # file_id = dataset_url.split("/")[-2]
+            # prefix = 'https://drive.google.com/uc?/export=download&id='
+            # gdown.download(prefix+file_id,zip_download_dir)
+            api = KaggleApi()
+            api.authenticate()
 
-            file_id = dataset_url.split("/")[-2]
-            prefix = 'https://drive.google.com/uc?/export=download&id='
-            gdown.download(prefix+file_id,zip_download_dir)
+            # Replace 'dataset_owner/dataset_name' with the actual owner and name of the dataset
+            dataset_name = 'nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone'
+
+            # Download the dataset
+            api.dataset_download_files(dataset_name, path='artifacts/data_ingestion', unzip=True)
 
             logger.info(f"Downloaded data from {dataset_url} into file {zip_download_dir}")
 
