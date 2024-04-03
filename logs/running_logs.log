@@ -367,3 +367,144 @@ x==========x]
 [2024-03-27 23:41:49,424:INFO:common: yaml file: params.yaml loaded successfully]
 [2024-03-27 23:41:49,424:INFO:common: created directory at: artifacts]
 [2024-03-27 23:41:49,425:INFO:common: created directory at: artifacts/training]
+[2024-03-29 00:00:18,057:INFO:main: Welcome to App Logs]
+[2024-03-29 00:00:18,058:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-29 00:00:18,061:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:00:18,064:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:00:18,067:INFO:common: created directory at: artifacts]
+[2024-03-29 00:00:18,068:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-29 00:01:19,910:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-29 00:01:21,617:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-29 00:01:21,617:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-29 00:01:21,621:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:01:21,624:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:01:21,625:INFO:common: created directory at: artifacts]
+[2024-03-29 00:01:21,626:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-29 00:01:25,423:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-29 00:01:25,427:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-29 00:01:25,431:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:01:25,435:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:01:25,436:INFO:common: created directory at: artifacts]
+[2024-03-29 00:01:25,439:INFO:common: created directory at: artifacts/training]
+[2024-03-29 00:04:30,637:INFO:main: Welcome to App Logs]
+[2024-03-29 00:04:30,638:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-29 00:04:30,642:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:04:30,646:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:04:30,647:INFO:common: created directory at: artifacts]
+[2024-03-29 00:04:30,647:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-29 00:05:09,189:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-29 00:05:10,806:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-29 00:05:10,807:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-29 00:05:10,812:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:05:10,817:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:05:10,817:INFO:common: created directory at: artifacts]
+[2024-03-29 00:05:10,819:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-29 00:05:13,353:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-29 00:05:13,354:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-29 00:05:13,357:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:05:13,360:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:05:13,361:INFO:common: created directory at: artifacts]
+[2024-03-29 00:05:13,362:INFO:common: created directory at: artifacts/training]
+[2024-03-29 00:18:25,422:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-29 00:18:25,423:INFO:main: >>>>>>>>stageEvaluating Model Using Mlflow started<<<<<<<<<<<]
+[2024-03-29 00:18:25,427:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:18:25,430:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:18:25,430:INFO:common: created directory at: artifacts]
+[2024-03-29 00:18:57,129:INFO:common: json file saved at: scores.json]
+[2024-03-29 00:18:57,130:INFO:common: json file saved at: scores.json]
+[2024-03-29 00:18:58,288:ERROR:main: Could not find experiment with ID 0]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 56, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage04_model_evluaton.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/model_evaluation.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/fluent.py", line 381, in start_run
+    active_run_obj = client.create_run(
+                     ^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/client.py", line 353, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/_tracking_service/client.py", line 139, in create_run
+    return self.store.create_run(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 607, in create_run
+    experiment = self.get_experiment(experiment_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 421, in get_experiment
+    experiment = self._get_experiment(experiment_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 391, in _get_experiment
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Could not find experiment with ID 0
+[2024-03-29 00:23:01,433:INFO:main: Welcome to App Logs]
+[2024-03-29 00:23:01,434:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-29 00:23:01,437:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:23:01,441:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:23:01,442:INFO:common: created directory at: artifacts]
+[2024-03-29 00:23:01,442:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-29 00:24:04,140:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-29 00:24:05,866:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-29 00:24:05,867:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-29 00:24:05,871:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:24:05,874:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:24:05,874:INFO:common: created directory at: artifacts]
+[2024-03-29 00:24:05,875:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-29 00:24:08,020:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-29 00:24:08,020:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-29 00:24:08,023:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:24:08,025:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:24:08,026:INFO:common: created directory at: artifacts]
+[2024-03-29 00:24:08,026:INFO:common: created directory at: artifacts/training]
+[2024-03-29 00:31:13,459:INFO:main: Welcome to App Logs]
+[2024-03-29 00:31:13,460:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-03-29 00:31:13,463:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:31:13,465:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:31:13,465:INFO:common: created directory at: artifacts]
+[2024-03-29 00:31:13,466:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-29 00:32:18,890:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-03-29 00:32:20,364:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-03-29 00:32:20,364:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-29 00:32:20,367:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:32:20,369:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:32:20,370:INFO:common: created directory at: artifacts]
+[2024-03-29 00:32:20,370:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-03-29 00:32:22,564:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-29 00:32:22,564:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-03-29 00:32:22,567:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:32:22,569:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:32:22,570:INFO:common: created directory at: artifacts]
+[2024-03-29 00:32:22,571:INFO:common: created directory at: artifacts/training]
+[2024-03-29 00:36:54,163:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-03-29 00:36:54,164:INFO:main: >>>>>>>>stageEvaluating Model Using Mlflow started<<<<<<<<<<<]
+[2024-03-29 00:36:54,167:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-03-29 00:36:54,170:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-03-29 00:36:54,170:INFO:common: created directory at: artifacts]
+[2024-03-29 00:37:26,006:INFO:common: json file saved at: scores.json]
+[2024-03-29 00:37:26,007:INFO:common: json file saved at: scores.json]
+[2024-03-29 00:46:18,045:WARNING:connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'TimeoutError('The write operation timed out')': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow-artifacts/artifacts/4da2f174c21747948310eced9b1dffa5/331cbf232f294e89b54f560387c2febb/artifacts/model/data/model.keras]
+[2024-03-29 00:59:19,656:INFO:main: >>>>>>stage Evaluating Model Using Mlflow compleated<<<<<
+
+x==========x]

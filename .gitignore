@@ -1,4 +1,7 @@
 artifacts/*
 mlruns/*
 logs/*
-
+*.bash
+startup.bash
+*logs
+./logs

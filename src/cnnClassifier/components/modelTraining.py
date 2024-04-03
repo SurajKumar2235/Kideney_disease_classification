@@ -67,11 +67,11 @@ class Training:
     def train(self):
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
-        optimizer = tf.keras.optimizers.Adam()  # Assuming Adam optimizer is used
+        # optimizer = tf.keras.optimizers.Adam()  # Assuming Adam optimizer is used
     
         # self.model.compile(optimizer=optimizer, loss='MAPE', metrics=['MAPE','mse'],)  # Adjust loss and metrics as per your requirements
 
-        self.model.fit(
+        history=self.model.fit(
             self.train_generator,
             epochs=self.config.params_epochs,
             steps_per_epoch=self.steps_per_epoch,
@@ -83,3 +83,5 @@ class Training:
             path=self.config.trained_model_path,
             model=self.model
         )
+
+        return history
