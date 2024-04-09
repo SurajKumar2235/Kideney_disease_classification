@@ -508,3 +508,516 @@ x==========x]
 [2024-03-29 00:59:19,656:INFO:main: >>>>>>stage Evaluating Model Using Mlflow compleated<<<<<
 
 x==========x]
+[2024-04-09 16:11:46,402:INFO:main: Welcome to App Logs]
+[2024-04-09 16:11:46,403:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-04-09 16:11:46,406:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:11:46,408:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:11:46,409:INFO:common: created directory at: artifacts]
+[2024-04-09 16:11:46,409:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 16:34:40,247:INFO:main: Welcome to App Logs]
+[2024-04-09 16:34:40,248:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-04-09 16:34:40,253:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:34:40,256:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:34:40,257:INFO:common: created directory at: artifacts]
+[2024-04-09 16:34:40,259:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 16:35:12,066:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 16:35:14,030:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-04-09 16:35:14,030:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-04-09 16:35:14,034:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:35:14,036:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:35:14,037:INFO:common: created directory at: artifacts]
+[2024-04-09 16:35:14,038:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-04-09 16:35:16,392:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-04-09 16:35:16,392:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-04-09 16:35:16,396:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:35:16,398:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:35:16,399:INFO:common: created directory at: artifacts]
+[2024-04-09 16:35:16,400:INFO:common: created directory at: artifacts/training]
+[2024-04-09 16:39:05,717:INFO:stage01_data_ingestion: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-04-09 16:39:05,724:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:39:05,729:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:39:05,730:INFO:common: created directory at: artifacts]
+[2024-04-09 16:39:05,731:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 16:39:33,891:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 16:39:35,545:INFO:stage01_data_ingestion: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-04-09 16:39:51,347:INFO:stage02_base_model: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-04-09 16:39:51,350:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:39:51,353:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:39:51,353:INFO:common: created directory at: artifacts]
+[2024-04-09 16:39:51,354:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-04-09 16:39:53,486:INFO:stage02_base_model: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-04-09 16:56:16,549:INFO:stage01_data_ingestion: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-04-09 16:56:16,552:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:56:16,555:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:56:16,555:INFO:common: created directory at: artifacts]
+[2024-04-09 16:56:16,556:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 16:57:27,046:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 16:57:28,424:INFO:stage01_data_ingestion: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-04-09 16:57:43,262:INFO:stage02_base_model: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-04-09 16:57:43,265:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:57:43,267:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:57:43,267:INFO:common: created directory at: artifacts]
+[2024-04-09 16:57:43,268:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-04-09 16:57:43,906:WARNING:saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-04-09 16:57:44,505:WARNING:saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-04-09 16:57:45,062:INFO:stage02_base_model: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-04-09 16:58:30,358:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 16:58:30,361:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 16:58:30,364:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 16:58:30,364:INFO:common: created directory at: artifacts]
+[2024-04-09 16:58:30,365:INFO:common: created directory at: artifacts/training]
+[2024-04-09 16:58:30,876:WARNING:saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-09 16:58:31,844:ERROR:stage03_modelTraining: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 74, in train
+    history=self.model.fit(
+            ^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 215, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-04-09 17:02:56,796:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:02:56,799:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:02:56,802:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:02:56,802:INFO:common: created directory at: artifacts]
+[2024-04-09 17:02:56,803:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:02:57,316:WARNING:saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-09 17:02:58,243:ERROR:stage03_modelTraining: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 74, in train
+    self.model.fit(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 215, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-04-09 17:14:57,794:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:14:57,797:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:14:57,800:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:14:57,801:INFO:common: created directory at: artifacts]
+[2024-04-09 17:14:57,801:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:14:58,311:WARNING:saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-09 17:14:59,243:ERROR:stage03_modelTraining: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 74, in train
+    self.model.fit(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 215, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-04-09 17:15:38,557:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:15:38,561:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:15:38,563:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:15:38,564:INFO:common: created directory at: artifacts]
+[2024-04-09 17:15:38,565:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:15:39,073:WARNING:saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-09 17:15:40,053:ERROR:stage03_modelTraining: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 74, in train
+    self.model.fit(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 215, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-04-09 17:17:27,559:INFO:main: Welcome to App Logs]
+[2024-04-09 17:17:27,559:INFO:main: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-04-09 17:17:27,562:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:17:27,564:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:17:27,565:INFO:common: created directory at: artifacts]
+[2024-04-09 17:17:27,565:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 17:18:22,873:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 17:18:24,174:INFO:main: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-04-09 17:18:24,174:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-04-09 17:18:24,177:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:18:24,179:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:18:24,179:INFO:common: created directory at: artifacts]
+[2024-04-09 17:18:24,180:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-04-09 17:18:24,180:INFO:main: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-04-09 17:18:24,180:INFO:main: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-04-09 17:18:24,185:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:18:24,189:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:18:24,189:INFO:common: created directory at: artifacts]
+[2024-04-09 17:18:24,190:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:18:24,711:WARNING:saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-09 17:18:25,647:ERROR:main: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/main.py", line 43, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 74, in train
+    self.model.fit(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 215, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-04-09 17:24:16,313:INFO:stage02_base_model: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-04-09 17:24:16,317:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:24:16,319:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:24:16,319:INFO:common: created directory at: artifacts]
+[2024-04-09 17:24:16,319:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-04-09 17:24:16,320:INFO:stage02_base_model: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-04-09 17:24:28,100:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:24:28,104:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:24:28,108:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:24:28,108:INFO:common: created directory at: artifacts]
+[2024-04-09 17:24:28,109:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:24:28,110:ERROR:stage03_modelTraining: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 18, in main
+    training.get_base_model()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 11, in get_base_model
+    self.model = tf.keras.models.load_model(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/saving/saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-04-09 17:25:52,694:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:25:52,697:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:25:52,700:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:25:52,701:INFO:common: created directory at: artifacts]
+[2024-04-09 17:25:52,701:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:25:52,703:ERROR:stage03_modelTraining: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 18, in main
+    training.get_base_model()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 11, in get_base_model
+    self.model = tf.keras.models.load_model(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/saving/saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-04-09 17:26:40,819:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:26:40,822:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:26:40,824:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:26:40,824:INFO:common: created directory at: artifacts]
+[2024-04-09 17:26:40,825:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:26:40,826:ERROR:stage03_modelTraining: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 18, in main
+    training.get_base_model()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 11, in get_base_model
+    self.model = tf.keras.models.load_model(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/saving/saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-04-09 17:27:38,247:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:27:38,250:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:27:38,252:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:27:38,253:INFO:common: created directory at: artifacts]
+[2024-04-09 17:27:38,253:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:27:38,255:ERROR:stage03_modelTraining: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 18, in main
+    training.get_base_model()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 11, in get_base_model
+    self.model = tf.keras.models.load_model(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/saving/saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-04-09 17:29:35,997:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:29:36,002:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:29:36,004:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:29:36,005:INFO:common: created directory at: artifacts]
+[2024-04-09 17:29:36,006:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:29:36,008:ERROR:stage03_modelTraining: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 18, in main
+    training.get_base_model()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 11, in get_base_model
+    self.model = tf.keras.models.load_model(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/saving/saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-04-09 17:30:17,525:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:30:17,530:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:30:17,532:INFO:common: created directory at: artifacts]
+[2024-04-09 17:30:17,534:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-04-09 17:30:18,447:WARNING:saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-04-09 17:30:19,313:WARNING:saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2024-04-09 17:30:44,823:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:30:44,827:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:30:44,830:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:30:44,831:INFO:common: created directory at: artifacts]
+[2024-04-09 17:30:44,831:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:30:44,833:ERROR:stage03_modelTraining: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 18, in main
+    training.get_base_model()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 11, in get_base_model
+    self.model = tf.keras.models.load_model(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/saving/saving_api.py", line 183, in load_model
+    return legacy_h5_format.load_model_from_hdf5(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib64/python3.12/site-packages/h5py/_hl/files.py", line 235, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+[2024-04-09 17:31:25,094:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:31:25,097:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:31:25,099:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:31:25,100:INFO:common: created directory at: artifacts]
+[2024-04-09 17:31:25,100:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:31:25,613:WARNING:saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-09 17:31:26,568:ERROR:stage03_modelTraining: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 74, in train
+    self.model.fit(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 215, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-04-09 17:32:32,815:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:32:32,818:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:32:32,820:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:32:32,821:INFO:common: created directory at: artifacts]
+[2024-04-09 17:32:32,821:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:32:33,344:WARNING:saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-09 17:32:34,303:ERROR:stage03_modelTraining: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage03_modelTraining.py", line 20, in main
+    training.train()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/modelTraining.py", line 74, in train
+    self.model.fit(
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/utils/traceback_utils.py", line 123, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/keras/src/optimizers/base_optimizer.py", line 215, in _check_variables_are_known
+    raise ValueError(
+ValueError: Unknown variable: <KerasVariable shape=(3, 3, 3, 64), dtype=float32, path=block1_conv1/kernel>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+[2024-04-09 17:33:45,964:INFO:stage01_data_ingestion: >>>>>>>>stageDATA ingestion stage started<<<<<<<<<<<]
+[2024-04-09 17:33:45,967:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:33:45,970:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:33:45,970:INFO:common: created directory at: artifacts]
+[2024-04-09 17:33:45,971:INFO:data_Ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 17:34:30,693:INFO:data_Ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-09 17:34:32,028:INFO:stage01_data_ingestion: >>>>>>stage DATA ingestion stage compleated<<<<<
+
+x==========x]
+[2024-04-09 17:34:46,666:INFO:stage02_base_model: >>>>>>>>stageprepare base model started<<<<<<<<<<<]
+[2024-04-09 17:34:46,669:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:34:46,671:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:34:46,671:INFO:common: created directory at: artifacts]
+[2024-04-09 17:34:46,672:INFO:common: created directory at: artifacts/prepare_base_model]
+[2024-04-09 17:34:48,778:INFO:stage02_base_model: >>>>>>stage prepare base model compleated<<<<<
+
+x==========x]
+[2024-04-09 17:35:00,311:INFO:stage03_modelTraining: >>>>>>>>stageTRAINING THE MODEL started<<<<<<<<<<<]
+[2024-04-09 17:35:00,314:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:35:00,316:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:35:00,316:INFO:common: created directory at: artifacts]
+[2024-04-09 17:35:00,317:INFO:common: created directory at: artifacts/training]
+[2024-04-09 17:39:35,316:INFO:stage03_modelTraining: >>>>>>stage TRAINING THE MODEL compleated<<<<<
+
+x==========x]
+[2024-04-09 17:39:54,875:INFO:stage04_model_evluaton: >>>>>>>>stageEvaluating Model Using Mlflow started<<<<<<<<<<<]
+[2024-04-09 17:39:54,879:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:39:54,881:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:39:54,882:INFO:common: created directory at: artifacts]
+[2024-04-09 17:40:27,547:INFO:common: json file saved at: scores.json]
+[2024-04-09 17:40:27,548:INFO:common: json file saved at: scores.json]
+[2024-04-09 17:40:28,851:ERROR:stage04_model_evluaton: Could not find experiment with ID 0]
+Traceback (most recent call last):
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage04_model_evluaton.py", line 27, in <module>
+    obj.main()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/pipeline/stage04_model_evluaton.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/src/cnnClassifier/components/model_evaluation.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/fluent.py", line 381, in start_run
+    active_run_obj = client.create_run(
+                     ^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/client.py", line 353, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/tracking/_tracking_service/client.py", line 139, in create_run
+    return self.store.create_run(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 607, in create_run
+    experiment = self.get_experiment(experiment_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 421, in get_experiment
+    experiment = self._get_experiment(experiment_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/run/media/suraj/1366967307359354/project/KidneyClassification/Kideney_desease_classification/kidney/lib/python3.12/site-packages/mlflow/store/tracking/file_store.py", line 391, in _get_experiment
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Could not find experiment with ID 0
+[2024-04-09 17:43:15,785:INFO:stage04_model_evluaton: >>>>>>>>stageEvaluating Model Using Mlflow started<<<<<<<<<<<]
+[2024-04-09 17:43:15,789:INFO:common: yaml file: config/config.yaml loaded successfully]
+[2024-04-09 17:43:15,791:INFO:common: yaml file: params.yaml loaded successfully]
+[2024-04-09 17:43:15,791:INFO:common: created directory at: artifacts]
+[2024-04-09 17:43:49,711:INFO:common: json file saved at: scores.json]
+[2024-04-09 17:43:49,712:INFO:common: json file saved at: scores.json]
+[2024-04-09 17:52:59,296:WARNING:connectionpool: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'TimeoutError('The write operation timed out')': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow-artifacts/artifacts/4da2f174c21747948310eced9b1dffa5/9d0a587dcd40493ba091859ea122da48/artifacts/model/data/model.keras]
+[2024-04-09 17:55:00,022:WARNING:connectionpool: Retrying (Retry(total=3, connect=5, read=4, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2406)')': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow-artifacts/artifacts/4da2f174c21747948310eced9b1dffa5/9d0a587dcd40493ba091859ea122da48/artifacts/model/data/model.keras]
+[2024-04-09 18:15:18,754:WARNING:connectionpool: Retrying (Retry(total=2, connect=5, read=3, redirect=5, status=5)) after connection broken by 'TimeoutError('The write operation timed out')': /SurajKumar2235/Kideney_disease_classification.mlflow/api/2.0/mlflow-artifacts/artifacts/4da2f174c21747948310eced9b1dffa5/9d0a587dcd40493ba091859ea122da48/artifacts/model/data/model.keras]
+[2024-04-09 18:17:58,295:INFO:_internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.121.133:8080]
+[2024-04-09 18:17:58,295:INFO:_internal: [33mPress CTRL+C to quit[0m]
+[2024-04-09 18:18:03,803:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:18:03] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:18:03,832:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:18:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-04-09 18:18:48,519:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:18:48] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:19:04,797:INFO:_internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.121.133:8080]
+[2024-04-09 18:19:04,797:INFO:_internal: [33mPress CTRL+C to quit[0m]
+[2024-04-09 18:19:15,461:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:19:15] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:19:50,603:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:19:50] "POST /predict HTTP/1.1" 200 -]
+[2024-04-09 18:20:00,971:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:20:00] "POST /predict HTTP/1.1" 200 -]
+[2024-04-09 18:20:34,664:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:20:34] "POST /predict HTTP/1.1" 200 -]
+[2024-04-09 18:20:44,941:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:20:44] "POST /predict HTTP/1.1" 200 -]
+[2024-04-09 18:20:51,068:WARNING:polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7f3876133560> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-04-09 18:20:51,070:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:20:51] "POST /predict HTTP/1.1" 200 -]
+[2024-04-09 18:23:19,920:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:23:19] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:23:21,679:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:23:21] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:23:29,391:WARNING:polymorphic_function: 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7f3875798400> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-04-09 18:23:29,392:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:23:29] "POST /predict HTTP/1.1" 200 -]
+[2024-04-09 18:23:59,550:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:23:59] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:24:10,817:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:24:10] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:24:11,663:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:24:11] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:24:11,830:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:24:11] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:24:56,584:INFO:_internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.121.133:8080]
+[2024-04-09 18:24:56,584:INFO:_internal: [33mPress CTRL+C to quit[0m]
+[2024-04-09 18:25:01,673:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:25:01] "GET / HTTP/1.1" 200 -]
+[2024-04-09 18:25:31,204:INFO:_internal: 127.0.0.1 - - [09/Apr/2024 18:25:31] "GET /train HTTP/1.1" 200 -]

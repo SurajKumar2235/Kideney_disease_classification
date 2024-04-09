@@ -36,7 +36,7 @@ stages:
       - BATCH_SIZE
       - AUGEMENTATION
     outs:
-      - artifacts/training/model.h5
+      - artifacts/training/model.keras
 
 
   evaluation:
@@ -45,7 +45,7 @@ stages:
       - src/cnnClassifier/pipeline/stage04_model_evluaton.py
       - config/config.yaml
       - artifacts/data_ingestion/kidney-ct-scan-image
-      - artifacts/training/model.h5
+      - artifacts/training/model.keras
     params:
       - IMAGE_SIZE
       - BATCH_SIZE

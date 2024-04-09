@@ -1,9 +1,10 @@
-FROM 3.12.2-slim-bookworm
+FROM 3.12.2-slim-buster
 
+RUN apt update -y && apt install awscli -y
 WORKDIR /app
 
 COPY requirement.txt requirement.txt
 RUN pip3 install -r requirement.txt
 
-COPY . .
-CMD [ "python3", "main.py" ]
+COPY . /app
+CMD [ "python3", "app.py" ]

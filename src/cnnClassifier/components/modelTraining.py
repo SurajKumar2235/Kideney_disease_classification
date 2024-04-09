@@ -71,7 +71,7 @@ class Training:
     
         # self.model.compile(optimizer=optimizer, loss='MAPE', metrics=['MAPE','mse'],)  # Adjust loss and metrics as per your requirements
 
-        history=self.model.fit(
+        self.model.fit(
             self.train_generator,
             epochs=self.config.params_epochs,
             steps_per_epoch=self.steps_per_epoch,
@@ -84,4 +84,4 @@ class Training:
             model=self.model
         )
 
-        return history
+       

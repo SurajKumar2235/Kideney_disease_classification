@@ -30,7 +30,6 @@ class PrepareBaseModel:
         elif (freeze_till is not None) and (freeze_till > 0):
             for layer in model.layers[:-freeze_till]:
                 model.trainable = False
-
         flatten_in = tf.keras.layers.Flatten()(model.output)
         prediction = tf.keras.layers.Dense(
             units=classes,
